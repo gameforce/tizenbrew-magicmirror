@@ -1,11 +1,12 @@
 {
   "name": "tizenbrew-magicmirror",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "TizenBrew module: open a LAN MagicMirror full screen on a Samsung Tizen TV",
   "packageType": "mods",
   "appName": "MagicMirror",
   "websiteURL": "http://192.168.11.10:8090/",
   "main": "main.js",
   "keys": [],
-  "license": "MIT"
+  "license": "MIT",
+  "evaluateScriptOnDocumentStart": true
 }
