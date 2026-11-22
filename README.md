@@ -5,4 +5,4 @@ full screen on a Samsung Tizen TV (tested target: 2019 RU8200, Tizen 5.0).
 
 Install: in TizenBrew, add the module `gameforce/tizenbrew-magicmirror`.
 
-The URL lives in `package.json` (`websiteURL`). `main.js` only hides the pointer and reloads every 6 hours.
+The URL lives in `package.json` (`websiteURL`): MagicMirror served through [mm-legacy-proxy](https://github.com/gameforce) (transpiles to the TV engine). `main.js` hides the pointer and reloads every 6 hours.
